@@ -1,0 +1,81 @@
+body {
+    width: 1000 px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("marvelBG.gif");
+    background-repeat: repeat;
+}
+
+.title {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60px;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 4px solid #044767;
+    border-radius: 25px;
+}
+
+h1 {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1473a1;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-shadow: 1.5px 1.5px 1px #044767;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+h2 {
+    width: 400px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+    margin-bottom: 15px;
+}
+
+.container {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 1012.5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+.m {
+    width: 300px;
+    border-width: 6px;
+    border-color: red;
+    border-style: groove;
+    margin: 12.5px;
+    border-radius: 9px 6px 9px 6px/6px 9px 6px 9px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+strong {
+    color: #3c161c;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 0.3px #976b72;
+}
+
+div.m:hover {
+    box-shadow: 2px 2px 2px 5px #443537;
+}
